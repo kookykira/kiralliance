@@ -1,0 +1,38 @@
+{
+  "name": "kiralliance",
+  "version": "0.0.1",
+  "description": "EVE Alliance Services Framework",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "coffee scripts/bootstrap.coffee",
+    "test": "mocha --compilers coffee:coffee-script/register --require should test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kiralliance"
+  },
+  "keywords": [
+    "eve",
+    "alliance",
+    "cms",
+    "content",
+    "management",
+    "system",
+    "services",
+    "api"
+  ],
+  "author": "Kooky Kira",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "config": "^1.2.3",
+    "lru-cache": "^2.5.0",
+    "mocha": "^1.21.4",
+    "prompt": "^0.2.14",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "node-rest-client": "^1.0.3",
+    "xml2js": "^0.4.4"
+  }
+}
